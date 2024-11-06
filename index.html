@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title> Assignment 1</title>
+        <style>
+            body {
+                background-color: azure;
+            }
+            h2 {
+                font-family: cursive;
+                color: blueviolet;
+                text-align: center;
+                font-size: 40px;
+            }
+            p {
+                font-family: "Lucida Console", "Courier New", monospace;
+                color: coral;
+                text-align: center;
+                font-size: 30px;
+            }
+            hr {
+                border: 0;
+                border-top: 2px solid black;
+                margin: 20px 0;
+            }
+            .box {
+                background-color: bisque;
+                width: 300px;
+                border: 10px solid lightcoral;
+                padding: 50px;
+                margin: 20px;
+                text-align: center;
+                margin-left: 470px;
+
+            }
+            a:link, a:visited {
+                background-color: goldenrod;
+                color: aliceblue;
+                padding: 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline block; 
+                margin-left: 570px;
+
+            }
+            a:hover, a:active {
+                background-color: violet;
+            }
+            .btn {
+                padding: 10px 20px;
+                font-size: 15px;
+                border: 2px solid red;
+                border-radius: 5px;
+                background-color: gray;
+                color: white;
+                cursor: pointer;
+                margin-left: 570px;
+                transition: background-color 0.3s, transform 0.1s;
+
+            }
+            .btn:hover {
+                background-color: #45a049;
+            }
+            .btn:active {
+                background-color: #388e3c; 
+                transform: scale(0.98);
+            }
+            .btn:focus {
+                outline: 2px solid #555;
+            }
+            .form-container {
+              
+                 justify-content: center;
+                 align-items: center;
+                 margin-left: 510px;
+               
+                
+             }
+            form {
+                 background-color: white;
+                 padding: 20px;
+                 border-radius: 8px;
+                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                 width: 300px;
+                 max-width: 100%;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px; /* Space between fields */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+            }
+       
+            input[type="submit"] {
+             width: 100%;
+             padding: 10px;
+            background-color: #4CAF50; /* Green background */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            }       
+            input[type="submit"]:hover {
+            background-color: #45a049; 
+            } 
+        </style>
+    </head>
+    <body>
+        <h2> Assignment No 1</h2>
+        <p> Hello! This is me Mubashira</p> <br><br><br>
+        <hr> <br>
+        <h2> Assignment No 2</h2> 
+        <div class="box">  This is a CSS BOx Model</div><br><br><br>
+        <hr><br>
+        <h2> Assignment No 3</h2>
+        <a href="https://www.google.com.pk/"> Google Link </a><br><br><br>
+        <hr>
+        <h2> Assignment No 4</h2>
+        <button class="btn"> Click Me </button> <br><br><br>
+        <hr><br>
+        <h2> Assignment No 5 </h2>
+        <div class="form-container">
+            <form action="#" method="POST">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        
+
+    </body>
+</html>
